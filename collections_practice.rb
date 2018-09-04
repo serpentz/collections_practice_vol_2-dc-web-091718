@@ -28,13 +28,3 @@ def remove_non_strings(collection)
      end
    }
 end
-
-def count_elements(hash)
-  hash.each do  |first_hash|
-    name = first_hash[:name]
-      array.each do |hash2|
-        if hash2[:name] == name
-          first_hash[:count] += 1
-        end
-      end
-end
