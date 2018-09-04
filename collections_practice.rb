@@ -7,9 +7,10 @@ def begins_with_r(collections)
 end
 
 def contain_a(collections)
-  new_col = []
+  new_col =
   collections.each do |word|
-    if word.include?("a") word
+    if word.include?("a")
+       word
     end
   end
 
