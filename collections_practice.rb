@@ -8,11 +8,8 @@ def begins_with_r(collections)
 end
 
 def contain_a(collections)
-  new_col =
-  collections.each do |word|
-    if word.include?("a")
-       word
+  new_col =  collections.select do |word|
+     word.include?("a")
     end
   end
-
 end
