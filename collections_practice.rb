@@ -7,8 +7,9 @@ def begins_with_r(collections)
 end
 
 def contain_a(collections)
+  new_col = []
   collections.each do |word|
-    if !word.include("a")  then return false
+    if !word.include("a")  then new_col.push(word)
     end
   end
 end
