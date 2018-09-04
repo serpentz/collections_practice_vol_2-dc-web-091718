@@ -1,6 +1,6 @@
 # your code goes here
 def begins_with_r(collection)
-  collections.each do |word|
+  collection.each do |word|
     if word[0] != 'r' then return false
     end
   end
@@ -8,7 +8,7 @@ def begins_with_r(collection)
 end
 
 def contain_a(collection)
-  new_col =  collections.select do |word|
+  new_col =  collection.select do |word|
      word.include?("a")
     end
   end
