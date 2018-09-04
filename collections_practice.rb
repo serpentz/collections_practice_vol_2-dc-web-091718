@@ -22,11 +22,10 @@ def first_wa(collection)
 end
 
 def remove_non_strings(collection)
-  collection.map {|x|
+  collection.map.with_index {|x,i|
     if x.class == " ".class
        x
+     else
+       collection.delete(i)
     end
-
-     }
-     collection.delete(nil)
 end
