@@ -20,3 +20,11 @@ def first_wa(collection)
     end
      }
 end
+
+def remove_non_strings(collection)
+  collection.find{|x|
+    if x.class == " ".class
+       x
+    end
+     }
+end
