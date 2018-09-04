@@ -12,5 +12,5 @@ def contain_a(collections)
     if word.include("a")  new_col << word
     end
   end
-  new_col
+
 end
