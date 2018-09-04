@@ -25,6 +25,8 @@ def remove_non_strings(collection)
   collection.select{|x|
     if x.class == " ".class
        x
-
 end
+     }
+
+
 end
