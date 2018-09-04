@@ -23,7 +23,7 @@ end
 
 def remove_non_strings(collection)
   collection.find{|x|
-    if x.class == " ".class
+    if !x.class == " ".class
        x
     end
      }
