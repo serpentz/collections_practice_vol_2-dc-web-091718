@@ -14,5 +14,5 @@ def contain_a(collection)
   end
 
 def first_wa(collection)
-  collection.find{|x|if x.class == String.class  x.include?("wa") else continue end}
+  collection.find{|x|if x.class == String.class  x.include?("wa") else  end}
 end
