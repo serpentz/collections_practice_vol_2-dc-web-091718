@@ -35,5 +35,4 @@ def count_elements(hash)
           first_hash[:count] += 1
         end
       end
-    end
 end
