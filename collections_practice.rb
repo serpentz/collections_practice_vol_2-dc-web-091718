@@ -9,8 +9,8 @@ end
 def contain_a(collections)
   new_col = []
   collections.each do |word|
-    if word.include?("a")  new_col << word
+    if word.include?("a") word
     end
   end
-new_col
+
 end
