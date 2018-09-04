@@ -26,5 +26,7 @@ def remove_non_strings(collection)
     if x.class == " ".class
        x
     end
+
      }
+     collection.delete(nil)
 end
