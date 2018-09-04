@@ -12,4 +12,3 @@ def contain_a(collections)
      word.include?("a")
     end
   end
-end
