@@ -29,3 +29,4 @@ def remove_non_strings(collection)
        collection.delete(i)
     end
 end
+end
