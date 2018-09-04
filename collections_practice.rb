@@ -22,7 +22,7 @@ def first_wa(collection)
 end
 
 def remove_non_strings(collection)
-  collection.collect {|x|
+  collection.map {|x|
     if x.class == " ".class
        x
     end
