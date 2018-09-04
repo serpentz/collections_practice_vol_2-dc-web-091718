@@ -4,6 +4,7 @@ def begins_with_r(collections)
     if word[0] != 'r' then return false
     end
   end
+  true
 end
 
 def contain_a(collections)
