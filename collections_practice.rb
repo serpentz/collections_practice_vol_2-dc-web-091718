@@ -5,3 +5,10 @@ def begins_with_r(collections)
     end
   end
 end
+
+def contain_a(collections)
+  collections.each do |word|
+    if !word.include("a")  then return false
+    end
+  end
+end
